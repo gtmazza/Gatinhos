@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://64.media.tumblr.com/29d30f8ea8ed0a6bd130c30adada422e/cd0b34a3f3e4bb2d-8c/s2048x3072/5db5d0f45804e79f93d500dce2c65f0aa04152a3.gifv");
+  /* https://dollarsandsense.sg/wp-content/uploads/2021/03/Nyan.gif
+  https://art.pixilart.com/f28ab7070947b5f.gif
+  https://cdn-icons-png.flaticon.com/512/3468/3468377.png*/
+  background-color: #000000;
+  background-size: 250px;
+  /*background-position-x: center;*/
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+  animation: moveBackground 05s infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position-x: -40%;
+  }
+  10% {
+    background-position-x: -30%;
+  }
+  20% {
+    background-position-x: -20%;
+  }
+  30% {
+    background-position-x: -10%;
+  }
+  40% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 10%;
+  }
+  60% {
+    background-position-x: 20%;
+  }
+  70% {
+    background-position-x: 30%;
+  }
+  80% {
+    background-position-x: 40%;
+  }
+  90% {
+    background-position-x: 50%;
+  }
+  100% {
+    background-position-x: 150%;
+  }
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  border-top-style: ridge;
+  border-top-color: #ee82ee;
+  border-top-width: 10px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 185px;
+  margin-bottom: 8px;
+  border-top-style: ridge;
+  border-top-color: #ee82ee;
+  border-top-width: 10px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 20px 20px;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+  margin: 5px 7px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ee82ee;
+  border-width: 1px;
+  transition: 0.5s;
+}
+
+h1 {
+  color: white;
+  /*border-bottom-style: ridge;
+  border-bottom-color: #ee82ee;
+  border-bottom-width: 10px;*/
+}
+
+input {
+  margin: 1px;
+  padding: 5px 80px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ee82ee;
+  border-width: 1px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 4px 8px;
+  font-size: 17px;
+  border-radius: 10px;
+  background: #ffffff;
+  border-style: solid;
+  border-color: #ee82ee;
+  border-width: 1px;
+}
+
+h2 {
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+h2:hover {
+  max-height: 180px;
+  filter: brightness(105%);
+  box-shadow: 0px 0px 8px 1px #000;
+}
+audio {
+  position: absolute;
+  top: 45px;
+  left: 27px;
+  height: 15px;
+  width: 180px;
+}
